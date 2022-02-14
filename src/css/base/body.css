@@ -1,3 +1,18 @@
 body {
   @apply antialiased;
 }
+
+header {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+section {
+  @apply m-6;
+}
+section > header {
+  @apply text-2xl;
+}
+
+section p {
+  @apply my-6;
+}
